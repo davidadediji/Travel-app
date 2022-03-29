@@ -203,7 +203,7 @@ a{
 #testimonials{
 	height:600px;
 	background: url('../img/test-bg.jpg')  no-repeat center center/cover;
-	padding-top:40px;
+	padding-top:100px;
 }
 
 #testimonials h2{
@@ -229,6 +229,38 @@ a{
 	border-radius: 50%;
 }
 
+/*Contact Form*/
+#contact-form .form-group{
+	margin-bottom: 20px;
+}
+
+#contact-form label{
+	display:block;
+	margin-bottom: 5px;
+}
+
+#contact-form input, 
+#contact-form textarea{
+	width: 100%;
+	padding: 10px;
+	border: 1px #ddd solid;
+}
+
+#contact-form textarea{
+	height:200px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus{
+	outline:none;
+	border-color: #f7c08a;
+}
+
+#contact-form input:hover,
+#contact-form textarea:hover{
+	outline:none;
+	border-color: #555;
+}
 /*Footer*/
 #main-footer{
 	text-align: center;
