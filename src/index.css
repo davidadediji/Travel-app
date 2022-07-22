@@ -15,7 +15,9 @@ body{
 .container{
   max-width: 550px;
   min-height: 704px;
-  border: 1px solid #212121;
+  /* max-width: 100vw; */
+  
+  /* border: 1px solid #212121; */
   margin: auto;
 }
 
@@ -39,16 +41,26 @@ body{
   margin-top:2.813rem;
   margin-left:2.4rem ;
   margin-right: 2.4rem ;
-  border: 1px solid #e5e5e5;
+  /* border: 1px solid #e5e5e5; */
 
 }
 
 .card{
   width: 470px;
-  height: 168px;
+  height: 196px;
   display: flex;
+  padding-top: 10px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #e5e5e5;
 }
 
+.card:first-child{
+  padding-top: 0;
+}
+
+.card:last-child{
+  border: none;
+}
 .img-container{
   height: 100%;
 }
@@ -58,4 +70,65 @@ body{
   border-radius: 10px;
   width: 125px;
   object-fit: cover;
+}
+
+.travel-details{
+  padding-left:19px;
+  padding-top: 16px;
+}
+
+.travel-details-country{
+  display: flex;
+  align-items: center;
+  
+}
+
+.top-country{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10.24px; 
+  letter-spacing: 0.17em;
+  color: #2B283A;
+  display: flex;
+  align-items: center;
+}
+
+.map-ins{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  text-decoration-line: underline;
+  color: #918E9B;
+}
+
+.location-img{
+  color: #F55A5A;
+  font-size: small;
+}
+
+.card-location{
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2B283A;
+}
+
+.card-date{
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+  color: #2B283A;
+  margin-top: 14px;
+}
+
+.card-description{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  color: #2B283A;
+  width: 326px;
+  height: 45px;
+  margin-top: 9px;
 }
